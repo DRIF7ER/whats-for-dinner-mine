@@ -8,3 +8,134 @@ red - #ee5253
 
 */
 
+.top-bar {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #0fb9b1;
+    justify-content: space-between;
+}
+
+h2 {
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.add-a-recipe-button {
+    width: 125px;
+    height: 50px;
+    padding: 0;
+    margin-top: 25px;
+    margin-right: 15px;
+    border: 0;
+    border-radius: 10px;
+}
+
+body {
+    background-clip:linear-gradient(to bottom, black)!important;
+    background-image: url('assets/burger-friends.jpg');
+    margin: 0px;
+    width: 1920px;
+    height: 1080px;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* .background {
+    background-image: url('assets/burger-friends.jpg');
+    width: 1920px;
+    height: 1080px;
+    background-size: cover;
+} */
+
+.main-wrapper {
+    display: flex;
+    max-width: 1920px;
+    max-height: 1080px;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 250px;
+}
+
+.meal-box {
+    width: 600px;
+    height: 600px;
+    background-color: rgba(225, 225, 225, .75);
+}
+
+h1 {
+    display: flex;
+    font-size: 35px;
+}
+
+.red-star {
+    display: flex;
+    color: red;
+    margin: 0;
+    padding-left: 3px;
+}
+
+.radio-button-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: flex-start;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.radio-alignment {
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.food-radio-button {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.dish-label {
+    font-size: 20px;
+}
+
+.lets-cook-button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: #0fb9b0;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 20px;
+    border: 0;
+    padding: 0;
+}
+
+#food-box {
+    display: flex;
+    justify-content: center;
+    padding-top: 125px;
+    padding-left: 100px;
+    max-height: 600px;
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
+.cooking-pot {
+    display: flex;
+    background-image: url('assets/cookpot.svg');
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    align-items: center;
+    flex-direction: column;
+}

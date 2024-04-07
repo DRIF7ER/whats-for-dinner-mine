@@ -1,10 +1,41 @@
+<!DOCTYPE html>
 <html>
   <head>
     <link rel="stylesheet" href="./styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   </head>
+  <header class="top-bar">
+    <h2>What's For Dinner?</h2>
+    <button class="add-a-recipe-button">ADD A RECIPE</button>
+  </header>
   <body>
-    
+    <section class="main-wrapper">
+      <div class="meal-box" id="what-are-you-looking-for-box">
+        <section class="radio-button-wrapper">
+          <h1>What are you looking for?<p class="red-star">*</p></h1>
+          <div class="radio-alignment">
+            <input class="food-radio-button" type="radio" value="Side">
+            <label class="dish-label">Sides</label>
+          </div>
+          <div class="radio-alignment">
+            <input class="food-radio-button" type="radio" value="Main Meal">
+            <label class="dish-label">Main Meal</label>
+          </div>
+          <div class="radio-alignment">
+            <input class="food-radio-button" type="radio" value="Dessert">
+            <label class="dish-label">Dessert</label>
+          </div>
+          <div class="radio-alignment">
+            <input class="food-radio-button" type="radio" value="Entire Meal">
+            <label class="dish-label">Entire Meal</label>
+          </div>
+          <button class="lets-cook-button">Let's Cook!</button>
+        </section>
+      </div>
+      <div class="meal-box" id="food-box">
+        <div class="cooking-pot"></div>
+      </div>
+    </section>
   </body>
   <script type="text/javascript" src="main.js"></script>
 </html>
